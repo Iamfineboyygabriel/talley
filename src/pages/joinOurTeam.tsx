@@ -1,5 +1,11 @@
+import TeamHero from "../components/career/teamHero";
+
 const JoinOurTeam = () => {
-  return <div>Join Our Team</div>;
+  return (
+    <main>
+      <TeamHero />
+    </main>
+  );
 };
 
 export default JoinOurTeam;
