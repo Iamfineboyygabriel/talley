@@ -1,6 +1,6 @@
 export const QuickLinks = [
   { label: "About Us", to: "/about-us" },
-  { label: "Why Choose Us", to: "#" },
+  { label: "Why Choose Us", to: "/what-we-offer/life-development-skills" },
   { label: "Our Core Values", to: "#" },
   { label: "Join Our Team", to: "#" },
   { label: "Volunteering Opportunities", to: "#" },
