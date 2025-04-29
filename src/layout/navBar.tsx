@@ -19,24 +19,35 @@ const serviceSubLinks = [
     label: "Life Skill Development",
   },
   {
-    href: `${ROUTES.WHAT_WE_OFFER}/#`,
+    href: `${ROUTES.WHAT_WE_OFFER}/accomodation`,
     label: "Accomodation Facilities",
   },
   {
-    href: `${ROUTES.WHAT_WE_OFFER}/#`,
+    href: `${ROUTES.WHAT_WE_OFFER}/community`,
     label: "Community Engagement",
+  },
+];
+
+const careersSubLinks = [
+  {
+    href: `${ROUTES.CAREERS}/join-our-team`,
+    label: "Join Our Team",
+  },
+  {
+    href: `${ROUTES.CAREERS}/volunteer`,
+    label: "Volunteering Opportunities",
   },
 ];
 
 const navLinks = [
   { href: ROUTES.ABOUT_US, label: "About Us" },
   { href: ROUTES.ACCOMODATION, label: "Accomodation" },
-  { href: ROUTES.CAREERS, label: "Careers" },
 ];
 
 const NavBar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isCareerOpen, setIsCareerOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
@@ -140,6 +151,61 @@ const NavBar = () => {
                   </NavLink>
                 </li>
               ))}
+
+              <li>
+                <Menu
+                  open={isCareerOpen}
+                  handler={setIsCareerOpen}
+                  placement="bottom"
+                  offset={5}
+                  animate={{
+                    mount: { y: 0 },
+                    unmount: { y: 10 },
+                  }}
+                >
+                  <MenuHandler>
+                    <button
+                      className={`flex cursor-pointer items-center gap-1 ${getLinkClassName(
+                        ROUTES.CAREERS
+                      )}`}
+                    >
+                      <Typography
+                        className="font-semibold text-lg"
+                        placeholder=""
+                      >
+                        Careers
+                      </Typography>
+                      <ChevronDown
+                        size={16}
+                        className={`transition-transform ${
+                          isOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                  </MenuHandler>
+                  <MenuList
+                    className="bg-[#48D1CC] border-none shadow-xl rounded-md mt-2 p-2"
+                    placeholder=""
+                  >
+                    {careersSubLinks.map(({ href, label }) => (
+                      <MenuItem
+                        key={href}
+                        placeholder=""
+                        className="p-0 hover:bg-transparent focus:bg-transparent active:bg-transparent"
+                      >
+                        <NavLink
+                          to={href}
+                          className="w-full block py-2 px-4 text-start text-white hover:text-[#48D1CC] hover:bg-[#EFFBFA] rounded"
+                        >
+                          <Typography placeholder="" className="font-medium">
+                            {label}
+                          </Typography>
+                        </NavLink>
+                      </MenuItem>
+                    ))}
+                  </MenuList>
+                </Menu>
+              </li>
 
               <li>
                 <Button className="bg-[#48D1CC] text-white rounded-full px-6 py-3">

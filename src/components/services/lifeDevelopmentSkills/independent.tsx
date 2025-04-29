@@ -3,7 +3,7 @@ import frame from "../../../assets/images/frame8.png";
 
 const Independent = () => {
   return (
-    <main>
+    <main className="max-w-7xl mx-auto">
       <Typography className="font-bold mb-6 playfair text-4xl">
         Independent Living Skills
       </Typography>

@@ -1,66 +1,56 @@
 import { Typography } from "@material-tailwind/react";
-import frame from "../../../assets/images/frame9.png";
+import frame from "../../../assets/images/frame22.png";
 
-const Employment = () => {
+const Aims = () => {
   return (
-    <main className="mt-20 max-w-7xl mx-auto">
-      <Typography className="font-extrabold mb-6 playfair text-4xl">
-        Employemnt & Career Skills
-      </Typography>
+    <main className="max-w-7xl mt-8 mx-auto">
       <div className="flex gap-8">
+        <img src={frame} alt="frame" />
         <div className="grid gap-6 grid-cols-2">
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">
             <div>
               <Typography className="font-extrabold text-xl">
-                CV Writing & Job
+                Social Events &
               </Typography>
               <Typography className="font-extrabold text-xl">
-                Applications
+                Activitied
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">
-              Templates, personal statement, and cover leters.
+              Organised events to build relationships and foster a sense of
+              community.
             </Typography>
           </div>
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">
             <div>
               <Typography className="font-extrabold text-xl">
-                Interview
+                Volunteering
               </Typography>
               <Typography className="font-extrabold text-xl">
-                Preparation
+                Opportunities
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">
-              Mock interviews, how to dress, and communicate effectivly.
+              Support for residents to engage in meaningful volunteer work.
             </Typography>
           </div>
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-6 pb-14 px-8 border border-[#606C6C33]">
             <div>
               <Typography className="font-extrabold text-xl">
-                Workplace Skills
+                Peer Support
               </Typography>
-            </div>
-            <Typography className="font-medium text-[#626A6A]">
-              Time management, professional boundaries, and communication at
-              work.
-            </Typography>
-          </div>
-          <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">
-            <div>
               <Typography className="font-extrabold text-xl">
-                Digital Literacy
+                Networks
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">
-              Using email, microsoft Office, and safe internet practices.
+              Group sessions to connect with others and share experiences.
             </Typography>
           </div>
         </div>
-        <img src={frame} alt="frame" />
       </div>
     </main>
   );
 };
 
-export default Employment;
+export default Aims;

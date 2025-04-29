@@ -34,7 +34,7 @@ const OurServices = () => {
               <img src={frame2} alt="frame" />
             </div>
             <Typography className="font-bold text-2xl">
-              Association and <br /> Facilities
+              Accomodation and <br /> Facilities
             </Typography>
             <Typography>
               At Talley we provide safe comfortable and fully equiped living

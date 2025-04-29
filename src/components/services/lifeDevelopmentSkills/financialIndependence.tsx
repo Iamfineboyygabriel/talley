@@ -3,7 +3,7 @@ import frame from "../../../assets/images/frame11.png";
 
 const FinancialIndependence = () => {
   return (
-    <main className="mt-20">
+    <main className="mt-20 max-w-7xl mx-auto">
       <Typography className="font-extrabold mb-6 playfair text-4xl">
         Financial Independence
       </Typography>

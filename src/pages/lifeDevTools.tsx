@@ -4,17 +4,19 @@ import Employment from "../components/services/lifeDevelopmentSkills/employment"
 import FinancialIndependence from "../components/services/lifeDevelopmentSkills/financialIndependence";
 import Housing from "../components/services/lifeDevelopmentSkills/housing";
 import Independent from "../components/services/lifeDevelopmentSkills/independent";
+import OurServices from "../components/services/lifeDevelopmentSkills/ourServices";
 
 const LifeDevTools = () => {
   return (
-    <main className="max-w-7xl mx-auto">
-      <div className="my-8">
+    <main>
+      <div>
         <Independent />
         <Employment />
         <Emotional />
         <FinancialIndependence />
         <Housing />
         <CommunityEngagements />
+        <OurServices />
       </div>
     </main>
   );
