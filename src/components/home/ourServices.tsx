@@ -2,12 +2,31 @@ import { Button, Typography } from "@material-tailwind/react";
 import frame1 from "../../assets/images/frame4.png";
 import frame2 from "../../assets/images/frame5.png";
 import frame3 from "../../assets/images/frame6.png";
+import frame4 from "../../assets/images/frame32.png";
 import { Arrow } from "../../assets/svg";
 
 const OurServices = () => {
   return (
-    <main className="pb-12 bg-[#0A2928]">
+    <main className="pb-22 bg-[#0A2928]">
       <div className="max-w-7xl mx-auto">
+        <div className="flex mb-25 items-center justify-between">
+          <div>
+            <Typography className="text-5xl text-white playfair font-bold mb-6">
+              Our <span className="text-[#48D1CC] italic">Services</span>
+            </Typography>
+            <Typography className="font-medium text-white max-w-lg">
+              At Talley Cares, we beleive in creating a space where young adults
+              can thrive, develop, and transition confidently into independence.
+              with years of expereince and make a dedicated team, we provide
+              more thann just a place to live-we offer a nuturing enviroment
+              that inspiries growth and self-descovery. Our holistic approach
+              ensures that every individual feels valued, supported, and
+              equipped to tackle the challenges of adulthood with resilience and
+              confidence.
+            </Typography>
+          </div>
+          <img src={frame4} alt="frame" />
+        </div>
         <div className="grid text-white gap-6 grid-cols-3">
           <div className="grid grid-cols-1 gap-6">
             <div>

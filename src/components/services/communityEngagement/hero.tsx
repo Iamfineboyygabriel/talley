@@ -1,5 +1,5 @@
 import { Typography } from "@material-tailwind/react";
-import hero from "../../assets/images/frame30.png";
+import hero from "../../../assets/images/frame31.png";
 
 const Hero = () => {
   return (
@@ -10,13 +10,14 @@ const Hero = () => {
           Our Services
         </Typography>
         <Typography className="text-6xl playfair font-bold my-8">
-          Accomodation Facilities
+          Community Engagement
         </Typography>
         <Typography className="max-w-3xl font-medium px-4">
-          At Talley, we provide safe, comfortable, and fully equiped living
-          spaces designed to support young adults (18+) on their journey to
-          independence. Our accomodation offer a welcoming enviroment where you
-          can feel secure, build confidence, and develop essentia life skills.
+          At Talley, we believe that a strong community is teh foundation for
+          personal growth and independence. We foster a supportive and inculsive
+          enviroment where young adults can build meaningful connections,
+          develop social skills, and engage in positive expereiences that enrich
+          their lives.
         </Typography>
       </div>
     </div>

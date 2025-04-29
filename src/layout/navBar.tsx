@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation, NavLink } from "react-router-dom";
+import { useLocation, NavLink, Link } from "react-router-dom";
 import logo from "../assets/images/logo.svg";
 import {
   Typography,
@@ -17,10 +17,6 @@ const serviceSubLinks = [
   {
     href: `${ROUTES.WHAT_WE_OFFER}/life-development-skills`,
     label: "Life Skill Development",
-  },
-  {
-    href: `${ROUTES.WHAT_WE_OFFER}/accomodation`,
-    label: "Accomodation Facilities",
   },
   {
     href: `${ROUTES.WHAT_WE_OFFER}/community`,
@@ -208,11 +204,13 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Button className="bg-[#48D1CC] text-white rounded-full px-6 py-3">
-                  <Typography className="font-bold cursor-pointer text-lg">
-                    Contact Us
-                  </Typography>
-                </Button>
+                <Link to="/careers/join-our-team">
+                  <Button className="bg-[#48D1CC] text-white rounded-full px-6 py-3">
+                    <Typography className="font-bold cursor-pointer text-lg">
+                      Contact Us
+                    </Typography>
+                  </Button>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,13 +1,17 @@
-import JoinTalley from "../components/constants/joinTalley";
 import Hero from "../components/accomodation/hero";
+import Aims from "../components/services/accomodationFacilities/aims";
+import OtherServices from "../components/services/accomodationFacilities/otherServices";
+import RoomSet from "../components/services/accomodationFacilities/roomSet";
 
-const Accomodation = () => {
+const AccomodationFacilities = () => {
   return (
     <main>
       <Hero />
-      <JoinTalley />
+      <RoomSet />
+      <Aims />
+      <OtherServices />
     </main>
   );
 };
 
-export default Accomodation;
+export default AccomodationFacilities;

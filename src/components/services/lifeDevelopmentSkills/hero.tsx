@@ -1,5 +1,5 @@
 import { Typography } from "@material-tailwind/react";
-import hero from "../../assets/images/frame30.png";
+import hero from "../../../assets/images/frame27.png";
 
 const Hero = () => {
   return (
@@ -10,13 +10,14 @@ const Hero = () => {
           Our Services
         </Typography>
         <Typography className="text-6xl playfair font-bold my-8">
-          Accomodation Facilities
+          Life Skills Development
         </Typography>
         <Typography className="max-w-3xl font-medium px-4">
-          At Talley, we provide safe, comfortable, and fully equiped living
-          spaces designed to support young adults (18+) on their journey to
-          independence. Our accomodation offer a welcoming enviroment where you
-          can feel secure, build confidence, and develop essentia life skills.
+          At Talley, we believe that independence is more than just having a
+          place to stay—it's about having the confidence and skills to build a
+          successful future. Our Life Skills Development program is designed to
+          equip young adults with the practical knowledge and experience they
+          need to navigate everyday life with ease.
         </Typography>
       </div>
     </div>
