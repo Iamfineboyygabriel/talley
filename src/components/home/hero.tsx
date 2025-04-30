@@ -62,12 +62,8 @@ const Hero = () => {
           </Button>
         </section>
 
-        <div className="mx-auto mt-8 sm:mt-10 md:mt-12 w-full sm:w-4/5 md:w-3/4 lg:w-2/3 px-4 sm:px-0">
-          <img
-            src={frame}
-            alt="frame"
-            className="w-full sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto"
-          />
+        <div className="mx-auto mt-8 sm:mt-10 md:mt-12 w-full sm:w-4/5 md:w-3/4 lg:w-2/3">
+          <img src={frame} alt="frame" className="w-full" />
         </div>
       </section>
     </main>
