@@ -18,7 +18,7 @@ const JoinTalley = () => {
               Join the Talley Team
             </Typography>
             <Typography className="font-medium max-w-2xl">
-              Make a diffrence in the lives of young adults by joining Talley.
+              Make a diffrence in the lives of young adults (18+) by joining Talley.
               We are dedicated to providing safe, supportive, and empowering
               accomodation for individuals transitioning to be independent
               living. if you're passionate about making a positive impact, we'd

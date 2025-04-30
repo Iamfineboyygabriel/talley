@@ -17,7 +17,7 @@ const FinancialIndependence = () => {
             </div>
             <Typography className="font-medium text-[#626A6A]">
               Opening accounts, understanding interest rates, avoiding payday
-              loand.
+              loans.
             </Typography>
           </div>
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">

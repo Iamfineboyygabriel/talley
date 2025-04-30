@@ -10,8 +10,8 @@ const HowToApply = () => {
             How to Apply
           </Typography>
           <Typography className="mt-10 leading-relaxed max-w-xl font-medium text-[#606C6C]">
-            Intreseted in becoming a voluneer? We'd love to hear from you!
-            Simplify fill out our volunteer application from or email us at{" "}
+            Interested in becoming a volunteer? We'd love to hear from you!
+            Simply fill out our volunteer application form or email us at{" "}
             <span className="text-[#48D1CC] font-bold">
               talleycares@gmail.com
             </span>{" "}

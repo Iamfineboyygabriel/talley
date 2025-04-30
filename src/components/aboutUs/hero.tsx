@@ -11,12 +11,12 @@ const Hero = () => {
           Discover <span className="italic text-[#48D1CC]">Our Mission</span>
         </Typography>
         <Typography className="max-w-3xl text-md mx-auto text-white text-center">
-          At Taley Cares, we beleive in creating a space where youg adults can
-          thrive, develop, and transition confidenttly into independence. with
+          At Talley Cares, we beleive in creating a space where young adults can
+          thrive, develop, and transition confidently into independence. with
           years of expereince and dedicated team, we provide more than just a
-          place t live - we offer a nuturing enviroment that inspires groth and
+          place to live - we offer a nuturing enviroment that inspires growth and
           self-discovery. Our holistic approach ensures that every individual
-          feels valued. supported, and equipped to tackle the challenge of
+          feels valued, supported and equipped to tackle the challenges of
           adulthood with resilience and confidence.
         </Typography>
         <div className="flex justify-center">

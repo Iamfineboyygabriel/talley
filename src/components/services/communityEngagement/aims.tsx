@@ -13,7 +13,7 @@ const Aims = () => {
                 Social Events &
               </Typography>
               <Typography className="font-extrabold text-xl">
-                Activitied
+                Activities
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">

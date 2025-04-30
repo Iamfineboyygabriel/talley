@@ -13,7 +13,7 @@ const Emotional = () => {
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">
             <div>
               <Typography className="font-extrabold text-xl">
-                Resilience & Selft
+                Resilience & Self
               </Typography>
               <Typography className="font-extrabold text-xl">
                 Confidence
@@ -26,7 +26,7 @@ const Emotional = () => {
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-8 pb-14 px-10 border border-[#606C6C33]">
             <div>
               <Typography className="font-extrabold text-xl">
-                Conflict Resolution
+                Conflict Resolution and
               </Typography>
               <Typography className="font-extrabold text-xl">
                 Communication
@@ -58,7 +58,7 @@ const Emotional = () => {
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">
-              Helping them weigh risks and consequences.
+            Enhance ability to think critically, make decisions, and weigh risks effectively.
             </Typography>
           </div>
         </div>

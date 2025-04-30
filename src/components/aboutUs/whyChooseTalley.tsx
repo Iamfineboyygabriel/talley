@@ -15,7 +15,7 @@ const WhyChooseTalley = () => {
           </Typography>
 
           <Typography className="text-[#606C6C] font-medium mb-11">
-            At Talley, we do more than provide a place to stay-we create a safe,
+            At Talley, we do more than provide a place to stay-we create a safe, and
             supportive environment where young adults can grow, thrive, and step
             confidently into independence. Here's what sets us apart:
           </Typography>
@@ -79,7 +79,7 @@ const WhyChooseTalley = () => {
             </div>
             <Typography className="font-medium max-w-xs m-auto text-[#626A6A]">
               You're never alone at Talley. We foster a sense of
-              belongingthrough a welcoming enviroment where you can connect with
+              belonging through a welcoming enviroment where you can connect with
               others on similar paths.
             </Typography>
           </div>
@@ -93,7 +93,7 @@ const WhyChooseTalley = () => {
               <Typography className="text-xl font-bold">Your Future</Typography>
             </div>
             <Typography className="font-medium max-w-xs m-auto text-[#626A6A]">
-              From financiala litracy to career readiness, we equip you with the
+              From financial literacy to career readiness, we equip you with the
               skills and confidence needed to build a bright and independent
               future.
             </Typography>

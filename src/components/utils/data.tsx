@@ -18,4 +18,4 @@ export const Services = [
   { label: "Community Engagement", to: "#" },
 ];
 
-export const ContactUs = [{ label: "Address" }, { label: "+44 117 234 5678" }];
+export const ContactUs = [{ label: "Address" }, { label: "+44 777 7506569" }];

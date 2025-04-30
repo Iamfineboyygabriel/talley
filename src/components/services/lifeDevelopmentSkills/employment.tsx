@@ -5,7 +5,7 @@ const Employment = () => {
   return (
     <main className="mt-20 max-w-7xl mx-auto">
       <Typography className="font-extrabold mb-6 playfair text-4xl">
-        Employemnt & Career Skills
+        Employment & Career Skills
       </Typography>
       <div className="flex gap-8">
         <div className="grid gap-6 grid-cols-2">
@@ -32,7 +32,7 @@ const Employment = () => {
               </Typography>
             </div>
             <Typography className="font-medium text-[#626A6A]">
-              Mock interviews, how to dress, and communicate effectivly.
+              Mock interviews, how to dress, and communicate effectively.
             </Typography>
           </div>
           <div className="bg-inherit rounded-xl flex flex-col gap-3 pt-6 pb-14 px-8 border border-[#606C6C33]">

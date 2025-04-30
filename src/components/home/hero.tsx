@@ -36,6 +36,7 @@
 
 import { Button, Typography } from "@material-tailwind/react";
 import frame from "../../assets/images/frame1.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -54,9 +55,11 @@ const Hero = () => {
         </div>
 
         <section className="flex flex-col sm:flex-row gap-4 justify-center mt-8 sm:mt-10 md:mt-12 px-2 md:px-4">
-          <Button className="bg-[#48D1CC] rounded-full font-bold text-base sm:text-lg text-white px-6 sm:px-8 py-3 shadow-md hover:shadow-lg transition-all">
-            Find Your New Home Now
-          </Button>
+          <Link to="ROUTE.accomodation">
+            <Button className="bg-[#48D1CC] rounded-full font-bold text-base sm:text-lg text-white px-6 sm:px-8 py-3 shadow-md hover:shadow-lg transition-all">
+              Find Your New Home Now
+            </Button>
+          </Link>
           <Button className="bg-white px-6 sm:px-8 text-[#48D1CC] rounded-full py-3 font-bold text-base sm:text-lg shadow-md hover:shadow-lg transition-all">
             Learn More
           </Button>

@@ -170,7 +170,7 @@ const RoomSet = () => {
               Modern Shared Spaces
             </Typography>
             <Typography className="text-[#626A6A] font-medium">
-              Kitchens, lounges, and recreational areas equipped for residents'
+              Kitchens, lounges, and recreational areas equipped for residents
               needs.
             </Typography>
             <Link to={ROUTES.PRIVATE_ROOM}>

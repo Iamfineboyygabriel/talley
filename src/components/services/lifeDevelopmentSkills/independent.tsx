@@ -57,7 +57,7 @@ const Independent = () => {
             </div>
             <Typography className="font-medium text-[#626A6A]">
               Booking GP appointments, understanding NHS services, hygiene and
-              sleep routies.
+              sleep routines.
             </Typography>
           </div>
         </div>

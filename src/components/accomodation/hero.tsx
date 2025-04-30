@@ -15,8 +15,8 @@ const Hero = () => {
         <Typography className="max-w-3xl font-medium px-4">
           At Talley, we provide safe, comfortable, and fully equiped living
           spaces designed to support young adults (18+) on their journey to
-          independence. Our accomodation offer a welcoming enviroment where you
-          can feel secure, build confidence, and develop essentia life skills.
+          independence. Our accomodations offer a welcoming enviroment where you
+          can feel secure, build confidence, and develop essential life skills.
         </Typography>
       </div>
     </div>

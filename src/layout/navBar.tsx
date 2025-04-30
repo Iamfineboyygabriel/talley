@@ -15,7 +15,7 @@ import { ROUTES } from "../components/constants/routes";
 const serviceSubLinks = [
   {
     href: `${ROUTES.WHAT_WE_OFFER}/life-development-skills`,
-    label: "Life Skill Development",
+    label: "Life Skills Development",
   },
   {
     href: `${ROUTES.WHAT_WE_OFFER}/community`,

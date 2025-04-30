@@ -13,7 +13,7 @@ const TeamHero = () => {
             <span className="italic text-[#48D1CC]">Talley</span>{" "}
           </Typography>
           <Typography className="max-w-lg font-medium text-center mt-11 mx-auto text-[#626A6A]">
-            we're here to help! whether you have questions about our
+            We're here to help! whether you have questions about our
             accomodation, support services, volunteering, or career
             opportunities, our team is ready to assist you.
           </Typography>
@@ -25,7 +25,7 @@ const TeamHero = () => {
           <div className="flex flex-col gap-3">
             <Typography className="font-extrabold text-xl">Call Us</Typography>
             <Typography className="text-[#626A6A] font-medium">
-              Call our team Mon-Fri from 8am 5am
+              Call our team Mon-Fri from 8am - 5pm
             </Typography>
             <div className="flex gap-2">
               <Phone />
@@ -74,7 +74,7 @@ const TeamHero = () => {
               Stay Connected
             </Typography>
             <Typography className="text-[#626A6A] font-medium">
-              Follow us on social media for updates,
+              Follow us on social media for updates
             </Typography>
             <div className="flex items-center gap-2">
               <div>
