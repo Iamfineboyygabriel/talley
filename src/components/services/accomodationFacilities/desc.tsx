@@ -5,11 +5,11 @@ import { Bed, Location, Person, Toilet, Wifi } from "../../../assets/svg";
 
 const Desc = () => {
   return (
-    <main className="bg-white my-16 pt-9">
+    <main className="bg-white my-16 pt-9 px-4 md:px-6 lg:px-0">
       <div className="max-w-7xl mx-auto">
         <section className="mb-8">
-          <div className="flex flex-wrap gap-8">
-            <div className="flex- min-w-[40%]">
+          <div className="flex flex-wrap gap-8 flex-col lg:flex-row">
+            <div className="flex- min-w-[40%] w-full lg:w-auto">
               <div className="grid gap-7">
                 <img
                   src={frame}

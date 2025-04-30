@@ -23,7 +23,7 @@ interface IconOverlayProps {
 const IconOverlay = ({ icon: Icon, position, tooltip }: IconOverlayProps) => {
   return (
     <div
-      className="absolute group cursor-pointer"
+      className="absolute group cursor-pointer hidden sm:block"
       style={{
         top: `${position.top}%`,
         left: `${position.left}%`,
@@ -31,7 +31,7 @@ const IconOverlay = ({ icon: Icon, position, tooltip }: IconOverlayProps) => {
     >
       <Icon />
       {tooltip && (
-        <Typography className="hidden group-hover:block text-[#626A6A] font-medium absolute z-10 p-2 bg-white rounded shadow-lg text-sm w-100 mt-2">
+        <Typography className="hidden group-hover:block text-[#626A6A] font-medium absolute z-10 p-2 bg-white rounded shadow-lg text-sm w-32 sm:w-48 md:w-64 lg:w-100 mt-2">
           {tooltip}
         </Typography>
       )}
@@ -116,9 +116,9 @@ const RoomSet = () => {
   ];
 
   return (
-    <main className="w-full py-12">
-      <section className="grid grid-cols-3 gap-6 max-w-7xl mx-auto">
-        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-8">
+    <main className="w-full py-0 md:py-12 px-4 sm:px-6 lg:px-0">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-7xl mx-auto">
+        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-4 md:p-8">
           <div className="flex justify-center mb-4 relative">
             <img
               src={frame1}
@@ -134,22 +134,22 @@ const RoomSet = () => {
               />
             ))}
           </div>
-          <div className="flex flex-col space-y-4">
-            <Typography className="font-extrabold text-xl">
+          <div className="flex flex-col space-y-2 md:space-y-4">
+            <Typography className="font-extrabold text-lg md:text-xl">
               Private Rooms
             </Typography>
-            <Typography className="text-[#626A6A] font-medium">
+            <Typography className="text-[#626A6A] font-medium text-sm md:text-base">
               Comfortable living options tailored to individual preferences.
             </Typography>
             <Link to={ROUTES.PRIVATE_ROOM}>
-              <Button className="bg-[#48D1CC] mt-8 w-fit items-center cursor-pointer gap-4 flex fap-3 px-8 text-white rounded-full py-3 font-bold text-xl">
+              <Button className="bg-[#48D1CC] mt-4 md:mt-8 w-fit items-center cursor-pointer gap-2 md:gap-4 flex px-4 md:px-8 text-white rounded-full py-2 md:py-3 font-bold text-sm md:text-xl">
                 View Details
               </Button>
             </Link>
           </div>
         </div>
 
-        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-8">
+        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-4 md:p-8">
           <div className="flex justify-center mb-4 relative">
             <img
               src={frame2}
@@ -165,23 +165,23 @@ const RoomSet = () => {
               />
             ))}
           </div>
-          <div className="flex flex-col space-y-4">
-            <Typography className="font-extrabold text-xl">
+          <div className="flex flex-col space-y-2 md:space-y-4">
+            <Typography className="font-extrabold text-lg md:text-xl">
               Modern Shared Spaces
             </Typography>
-            <Typography className="text-[#626A6A] font-medium">
+            <Typography className="text-[#626A6A] font-medium text-sm md:text-base">
               Kitchens, lounges, and recreational areas equipped for residents'
               needs.
             </Typography>
             <Link to={ROUTES.PRIVATE_ROOM}>
-              <Button className="bg-[#48D1CC] mt-8 w-fit items-center cursor-pointer gap-4 flex fap-3 px-8 text-white rounded-full py-3 font-bold text-xl">
+              <Button className="bg-[#48D1CC] mt-4 md:mt-8 w-fit items-center cursor-pointer gap-2 md:gap-4 flex px-4 md:px-8 text-white rounded-full py-2 md:py-3 font-bold text-sm md:text-xl">
                 View Details
               </Button>
             </Link>
           </div>
         </div>
 
-        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-8">
+        <div className="bg-[#EFFBFA] rounded-xl flex flex-col p-4 md:p-8 sm:col-span-2 lg:col-span-1">
           <div className="flex justify-center mb-4 relative">
             <img
               src={frame3}
@@ -197,15 +197,15 @@ const RoomSet = () => {
               />
             ))}
           </div>
-          <div className="flex flex-col space-y-4">
-            <Typography className="font-extrabold text-xl">
+          <div className="flex flex-col space-y-2 md:space-y-4">
+            <Typography className="font-extrabold text-lg md:text-xl">
               Counselling & Emotional Support
             </Typography>
-            <Typography className="text-[#626A6A] font-medium">
+            <Typography className="text-[#626A6A] font-medium text-sm md:text-base">
               Access to professional counselling services.
             </Typography>
             <Link to={ROUTES.PRIVATE_ROOM}>
-              <Button className="bg-[#48D1CC] mt-8 w-fit items-center cursor-pointer gap-4 flex fap-3 px-8 text-white rounded-full py-3 font-bold text-xl">
+              <Button className="bg-[#48D1CC] mt-4 md:mt-8 w-fit items-center cursor-pointer gap-2 md:gap-4 flex px-4 md:px-8 text-white rounded-full py-2 md:py-3 font-bold text-sm md:text-xl">
                 View Details
               </Button>
             </Link>
