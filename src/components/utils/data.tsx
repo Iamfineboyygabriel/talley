@@ -1,9 +1,9 @@
 export const QuickLinks = [
   { label: "About Us", to: "/about-us" },
   { label: "Why Choose Us", to: "/what-we-offer/life-development-skills" },
-  { label: "Our Core Values", to: "#" },
-  { label: "Join Our Team", to: "#" },
-  { label: "Volunteering Opportunities", to: "#" },
+  { label: "Our Core Values", to: "/about-us" },
+  { label: "Join Our Team", to: "/careers/join-our-team" },
+  { label: "Volunteering Opportunities", to: "/careers/volunteer" },
 ];
 
 export const Services = [
@@ -13,9 +13,12 @@ export const Services = [
   },
   {
     label: "Accomodation & Facilities",
-    to: "#",
+    to: "/accomodation",
   },
-  { label: "Community Engagement", to: "#" },
+  {
+    label: "Community Engagement",
+    to: "/what-we-offer/community",
+  },
 ];
 
 export const ContactUs = [{ label: "Address" }, { label: "+44 777 7506569" }];

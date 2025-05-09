@@ -7,7 +7,7 @@ const Hero = () => {
         <Typography className="text-white mb-7 text-lg font-bold">
           About Us
         </Typography>
-        <Typography className="playfair mb-4 text-white text-6xl font-extrabold">
+        <Typography className="playfair mb-4 text-white text-4xl md:text-6xl font-extrabold">
           Discover <span className="italic text-[#48D1CC]">Our Mission</span>
         </Typography>
         <Typography className="max-w-3xl text-md mx-auto text-white text-center">
